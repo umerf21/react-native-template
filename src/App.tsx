@@ -16,6 +16,8 @@ import {
   Text,
   useColorScheme,
   View,
+  Alert,
+  TouchableOpacity,
 } from 'react-native';
 
 import {

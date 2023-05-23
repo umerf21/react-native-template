@@ -10,6 +10,7 @@ export type RootStackParamList = {
   // LangTest: undefined;
   Home: undefined;
   Menu: undefined;
+  Main: undefined;
   Settings: undefined;
 };
 
@@ -27,6 +28,7 @@ export type RootPageUrlType = Record<
 export const ROOT_PAGE_URL: RootPageUrlType = {
   Home: 'Home',
   Menu: 'Menu',
+  Main: 'Main',
   Settings: 'Settings',
 };
 
