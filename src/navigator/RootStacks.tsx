@@ -9,7 +9,7 @@ const RootStacks = (props: Props) => {
   const Stack = createStackNavigator();
   const inititalRoute = ROOT_PAGE_URL.Menu;
   return (
-    <Stack.Navigator>
+    <Stack.Navigator screenOptions={screenoptions}>
       <Stack.Screen name={ROOT_PAGE_URL.Menu} component={DrawerNavigator} />
       {/* <Stack.Screen name={ROOT_PAGE_URL.Settings} component={SettingsScreen} /> */}
     </Stack.Navigator>
